@@ -70,6 +70,13 @@ _Selected Features_
 - _Overall Accuracy:_ 80.92 %
 - _Standard Deviation is:_ 0.26 %
 
+| Metrics            | Logistics Regression | K Nearest Neighbours | Decision Tree | XGBoost | Naïve Bayes Classifier | Random Forest Classifier |
+| ------------------ | -------------------- | -------------------- | ------------- | ------- | ---------------------- | ------------------------ |
+| Maximum Accuracy   | 84.62%               | 83.24%               | 77.82%        | 84.44%  | 81.29%                 | 85.03%                   |
+| Minimum Accuracy   | 83.95%               | 82.22%               | 77.06%        | 83.92%  | 80.36%                 | 84.29%                   |
+| Overall Accuracy   | 84.20%               | 82.71%               | 77.47%        | 84.15%  | 80.92%                 | 84.69%                   |
+| Standard Deviation | 0.20%                | 0.27%                | 0.28%         | 0.17%   | 0.26%                  | 0.21%                    |
+
 > > Best Models: Logistic Regssion and XGBoost with accuracy of 84% approx.
 
 ## Visualizations
