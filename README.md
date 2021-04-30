@@ -1,11 +1,29 @@
 # Rain In Australia Prediction
 
+![rain in australia](NOAA-NASA-Satellite-Image-Australia-Fire.jpg)
+
 In this we have to predict whether there will Rain tomorrow or not. This is a classification problem.
 
 - [Dataset](https://www.kaggle.com/jsphyg/weather-dataset-rattle-package?select=weatherAUS.csv)
 - [Kernel](https://www.kaggle.com/nadeem4nk/rain-in-australia-85-accuracy)
 
 > > Dataset contain 10 years of daily weather observation from different location across Autralia. There are 23 columns and 145460 records.
+
+## How to Run
+
+#### Running on Kaggle
+
+- Fork my [Kaggle Kernel](https://www.kaggle.com/nadeem4nk/rain-in-australia-85-accuracy) to run it. To fork the kernel, you have to click on **Copy and Edit** Button on Top Right Corner.
+
+#### How to run locally
+
+- Download the [Jupyter notebook](https://github.com/nadeem4/rain_in_austrailia_kaggle/blob/main/rain-in-australia-85-accuracy.ipynb) from my github. I have also attached the jupyter notebook as a part of submission.
+- Install Required Dependencies **(Pandas, missingno, matploblob, seaborn, numpy, sklearn)**.
+- Download the [dataset](<(https://www.kaggle.com/jsphyg/weather-dataset-rattle-package?select=weatherAUS.csv)>).
+- Replace the dataset path.
+  ![replace dataset](read_ds.png)
+
+> > I would recomend using Kaggle Kernel to run this project, because dataset contains lot of row, and it has lot of visualization.
 
 ## Feature Engineering or Data Preprocessing
 
